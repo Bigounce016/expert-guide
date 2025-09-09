@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MLA Format</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 12pt;
+      margin: 1in;
+      line-height: 2; /* Double-spacing */
+    }
+    header {
+      text-align: right;
+      position: fixed;
+      top: 0.5in;
+      right: 1in;
+    }
+    .mla-heading {
+      margin-bottom: 1in;
+    }
+    .mla-heading div {
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      font-weight: normal;
+      margin: 0;
+    }
+    p {
+      text-indent: 0.5in;
+      margin: 0;
+    }
+    .works-cited {
+      margin-top: 2in;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span>Reynolds 1</span>
+  </header>
+  <div class="mla-heading">
+    <div>Elic Reynolds</div>
+    <div>Mr. Fast</div>
+    <div>Web App</div>
+    <div>9/8/2025</div>
+  </div>
+  <h1>Websites</h1>
+  <p></p>
+  <div class="works-cited">
+    <h1>Works Cited</h1>
+    <p>Author's Last Name, First Name. <i>Title of the Book</i>. Publisher, Year of Publication.</p>
+  </div>
+</body>
+</html>
